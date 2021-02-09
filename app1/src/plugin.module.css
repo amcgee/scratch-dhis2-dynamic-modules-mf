@@ -1,0 +1,8 @@
+.pluginContainer {
+    border: 1px solid black;
+    margin-top: 8px;
+}
+.pluginHeader {
+    padding: 4px;
+    border-bottom: 1px solid #999;
+}

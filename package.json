@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start:shell": "cd shell && yarn start",
+        "start:app1": "cd app1 && yarn start",
+        "start:app2": "cd app2 && yarn start",
+        "start": "concurrently -k -n shell,app1,app2 \"yarn start:shell\" \"yarn start:app1\" \"yarn start:app2\""
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0"
+    }
+}
